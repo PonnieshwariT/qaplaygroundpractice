@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Playwright reports
+playwright-report/
+results/
+
+# Authentication state
+playwright/.auth/
+storageState.json
+*.auth.json
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
