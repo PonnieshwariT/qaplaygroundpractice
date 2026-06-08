@@ -5,7 +5,7 @@ export default defineConfig({
   reporter: [['line'], ['html']],   // ✅ Only HTML
   use: {
     baseURL: 'https://qaplayground.dev/',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: 'on',
     trace: 'on'
